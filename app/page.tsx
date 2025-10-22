@@ -1,9 +1,9 @@
-import Site from "@/components/header";
+import Site from "./site/page";
+
 
 
 export default function Home() {
   return (
-    <Site/>
-    
+       <Site/>
     );
 }

@@ -1,5 +1,12 @@
-export default function Site(){
-    return (
-        <h1>site</h1>
+import Logo from "./logo"
+
+export default function Header(){
+    return(
+    <header>
+        <div >
+        <Logo/>
+        <nav> menu</nav>
+        </div>
+    </header>
     )
 }
