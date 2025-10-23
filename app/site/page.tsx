@@ -1,3 +1,4 @@
+import BenifitSection from "@/components/benefit-section";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
 
@@ -7,6 +8,7 @@ export default function Site() {
       <Header />
       <main className="relative mt-16 ">
         <HeroSection />
+        <BenifitSection />
       </main>
     </>
   );
