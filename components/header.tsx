@@ -8,7 +8,7 @@ export default function Header() {
       <div
         className="
       fixed p-3 top-0 z-50 w-full border-b
-     border-white/10 bg-background/95 backdrop-blur supports-[backdrop-filters]:bg-background/60
+     border-green-300/40 bg-background/95 backdrop-blur supports-[backdrop-filters]:bg-background/60
       flex flex-col md:flex-row md:gap-8 md:items-center md:justify-center md:mt-5"
       >
         <Logo />
