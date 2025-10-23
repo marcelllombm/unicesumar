@@ -7,7 +7,7 @@ import HeroSection from "@/components/hero-section";
 export default function Site() {
   return (
     <>
-      <Header />
+     
       <main className="relative mt-16 ">
         <HeroSection />
         <BenifitSection />
@@ -21,7 +21,7 @@ export default function Site() {
           Faça seu pedido agora e receba em casa com todo carinho!
         </FeaturedSection>
       </main>
-      <Footer />
+
     </>
   );
 }
