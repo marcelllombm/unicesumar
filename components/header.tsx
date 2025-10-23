@@ -19,7 +19,7 @@ export default function Header() {
           <ActiveLink href="/site/about">Sobre</ActiveLink>
           <ActiveLink href="/site/contact">Contato</ActiveLink>
           <Button variant="primary" asChild>
-            <ActiveLink href="/admin">Entrar</ActiveLink>
+            <ActiveLink href="/site/login">Entrar</ActiveLink>
           </Button>
         </nav>
       </div>
