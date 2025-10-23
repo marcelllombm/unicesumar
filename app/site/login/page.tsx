@@ -4,7 +4,9 @@ export default function Login() {
         <h1 className="text-4xl font-bold  text-green-300">Acesse sua conta
 </h1>
         <p className="mt-4 text-lg text-gray-600">
-        Conheça nossa seleção de produtos artesanais🍰 </p>
+        Página em Construção
+
+</p>
       </section>
     );
   }
