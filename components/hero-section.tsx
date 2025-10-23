@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export default function HeroSection() {
   return (
     <>
-      <section className=" relative z-20 p-24 bg-gradient-to-b from-green-300/20 to-green-300/40">
+      <section className=" relative z-20 p-24 bg-gradient-to-b from-green-300/20 to-green-300/40 mt-[-4px]">
         <div
           className="absolute inset-0 bg-[url('/banner-hero.jpeg')] 
       bg-cover bg-center bg-no-repeat opacity-20

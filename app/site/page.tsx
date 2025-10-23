@@ -1,5 +1,6 @@
 import BenifitSection from "@/components/benefit-section";
 import FeaturedSection from "@/components/featured-section";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
 
@@ -20,6 +21,7 @@ export default function Site() {
           Faça seu pedido agora e receba em casa com todo carinho!
         </FeaturedSection>
       </main>
+      <Footer />
     </>
   );
 }

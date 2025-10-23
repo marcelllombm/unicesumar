@@ -9,10 +9,10 @@ export default function Header() {
         className="
       fixed p-3 top-0 z-50 w-full border-b
      border-green-300/40 bg-background/95 backdrop-blur supports-[backdrop-filters]:bg-background/60
-      flex flex-col md:flex-row md:gap-8 md:items-center md:justify-center md:mt-5"
+      flex flex-col md:flex-row md:gap-7 md:items-center md:justify-center "
       >
         <Logo />
-        <nav className="flex gap-2 items-center justify-center mt-3 md:mt-0">
+        <nav className="flex gap-2 items-center justify-center mt-1 md:mt-0">
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/produtos">Produtos</ActiveLink>
           <ActiveLink href="/fazer-pedido">Fazer pedido</ActiveLink>
