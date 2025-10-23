@@ -14,10 +14,10 @@ export default function Header() {
         <Logo />
         <nav className="flex gap-2 items-center justify-center mt-1 md:mt-0">
           <ActiveLink href="/">Home</ActiveLink>
-          <ActiveLink href="/site/produtos">Produtos</ActiveLink>
-          <ActiveLink href="/site/fazer-pedido">Fazer pedido</ActiveLink>
-          <ActiveLink href="/site/sobre">Sobre</ActiveLink>
-          <ActiveLink href="/site/contato">Contato</ActiveLink>
+          <ActiveLink href="/site/products">Produtos</ActiveLink>
+          <ActiveLink href="/site/place-an-order">Fazer pedido</ActiveLink>
+          <ActiveLink href="/site/about">Sobre</ActiveLink>
+          <ActiveLink href="/site/contact">Contato</ActiveLink>
           <Button variant="primary" asChild>
             <ActiveLink href="/admin">Entrar</ActiveLink>
           </Button>
